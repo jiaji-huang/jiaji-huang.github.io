@@ -1,0 +1,26 @@
+# jemdoc: menu{MENU}{index.html}, nofooter
+= Jiaji Huang
+
+~~~
+{}{img_left}{files/portrait.png}{alt text}{120}{173}{}
+Jiaji Huang \n
+Research Scientist \n
+[http://research.baidu.com/ Baidu Research] \n
+
+Contact \n
+1195 Bordeaux Dr, \n
+Sunnyvale, CA 94089 \n
+LastnameFirstname@baidu.com
+~~~
+
+== Research Interests
+Statistical Signal Processing, Machine Learning, Natural Language Processing, Computational Linguistics
+
+== Recent News
+- 07\/19 -- Talk [files/high_dim.pdf "Two Topics in High Dimensional Spaces"] is given at Chinese Academic of Science, Institute of Electronics \n
+- 05\/19 -- [http://research.baidu.com/Blog/index-view?id=119 Hubless Nearest Neighbor Search] is accepted by ACL 2019
+
+== Links
+[files/cv.pdf \[Curriculum Vitae\]] \n
+[https://scholar.google.com/citations?user=zgqtvYUAAAAJ&hl=en&oi=ao \[Google Scholar\]] \n
+[https://www.linkedin.com/in/jiaji-huang-5478103a/ \[LinkedIn\]] \n

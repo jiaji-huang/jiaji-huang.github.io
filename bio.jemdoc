@@ -1,0 +1,35 @@
+# jemdoc: menu{MENU}{bio.html}, nofooter
+= Jiaji Huang -- Biography
+
+== Short Bio
+Jiaji Huang is a Research Scientist at Baidu Research, Silicon Valley AI Lab. He received a Bachelor’s degree from University of Science and Technology of China in 2011, and a PhD degree from Duke University in 2016. Both degrees are in electrical engineering. His PhD works mostly focus on statistical signal processing and machine learning, with a special interest in understanding how geometry of high dimensional space impacts various tasks, e.g., signal reconstruction, representation and classification.
+
+His recent research interest is mainly in computational linguistics and natural language processing, especially problems that are less driven by the amount of supervised data. For example, language modeling and word embedding are two very recent and representative directions he is working on. He is always fascinated by the geometry of word/phrase embedding space, and its connection with semantics.
+
+He has been actively publishing as first author in several top conferences/journals, including NIPS, ICCV, EMNLP, ACL, IEEE Transaction on Signal Processing and SIAM journal on Imaging Sciences. He has an [https://oakland.edu/enp/ Erdős number] of 3.
+
+== Education
+- 04\/2016~~Ph.D in Electrical Engineering (Advisor: [https://en.wikipedia.org/wiki/Robert_Calderbank Robert Calderbank]) \n
+[https://www.duke.edu/ Duke University] 
+
+- 07\/2011~~B.S. in Electrical Engineering and Information Science \n
+[http://en.ustc.edu.cn/ University of Science and Technology of China]
+
+== Industry Experience
+- 07\/2016 -- Now~~~~~~~~~Research Scientist, Baidu Research, Sunnyvale, CA
+- 05\/2013 -- 08\/2013~~Research Intern, NEC Labs America, princeton, NJ, CA
+
+== Honors and Awards
+- Outstanding Researcher, Baidu Research, 2019
+- Distinguished Graduate, University of Science and Technology of China, 2011
+- National Scholarship, 2011
+
+== Professional Services
+Reviewer for
+- IEEE Transactions on Signal Processing
+- IEEE Transactions on Knowledge and Data Engineering
+- Association for the Advancement of Artificial Intelligence (AAAI)
+- International Joint Conference on Artificial Intelligence (IJCAI)
+- International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+- Global Conference on Signal and Information Processing (GlobalSip)
+- International Conference on Image Processing (ICIP)

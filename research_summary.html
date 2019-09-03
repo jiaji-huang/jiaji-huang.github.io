@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Jiaji Huang &ndash; Research Summary </title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Jiaji Huang</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="bio.html">Bio</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="research_summary.html" class="current">Summary</a></div>
+<div class="menu-item"><a href="pub.html">Publications</a></div>
+<div class="menu-item"><a href="software.html">Software</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Jiaji Huang &ndash; Research Summary </h1>
+</div>
+<h2>About this Page</h2>
+<p>Blocks on this page summarize my most representative research works. Each of them is a blend of theory and applications, unveiling and exploiting the property of high dimensional spaces.</p>
+<p><br /></p>
+<h2>Retrieval: Beyond Nearest Neighbor Search</h2>
+<table class="imgtable"><tr><td>
+<img src="files/pt-en_k_5.png" alt="alt text" width="300px" />&nbsp;</td>
+<td align="left"><p>Nearest Neighbor (NN) search may be the most general and widely applied retrieval method in multi-dimensional feature spaces. However, NN is often degraded by a phenomenon called <a href="http://www.jmlr.org/papers/volume11/radovanovic10a/radovanovic10a.pdf">hubness</a>. Hubness is a tendency in high dimensional space that some data points, called &ldquo;hubs&rdquo;, are suspiciously close to many others. As a result, NN search may retrieve these &ldquo;hubby&rdquo; points more often than they should be.</p>
+<p>Earlier works, <a href="https://openreview.net/pdf?id=r1Aab85gg">Inverted SoFtmax (ISF, 2017)</a> and <a href="https://arxiv.org/pdf/1710.04087.pdf">Cross-domain Similarity Local Scaling (CSLS, 2018)</a> are heurestics that mitigate hubness and improve upon NN for <a href="https://www.mitpressjournals.org/doi/pdfplus/10.1162/COLI_a_00284">bilingual lexicon induction</a> tasks. Nevertheless, still missing are a rigorious formulation and a thorough understanding of the hubness-reduction problem.</p>
+<p>The proposed Hubless Nearest Neighbor (HNN) search hinges upon an <b>Equal Preference Assumption</b>. We observe that the assumption approximately holds for bilingual lexicon induction between languages that share their origins. Essentially, it is a constraint that all items in the gallery are equally likely to be retrieved. The retrieval task is then re-formulated into a linear assignment problem. By relaxing its objective function, we can further derive an efficient solver that is parallelizable over GPUs.</p>
+</td></tr></table>
+<p>The above figure is a comparison of measures of hubness after applying NN, ISF, CSLS and the proposed HNN. A long tail indicates that there exist some items being retrieved for excessive number of times. HNN has the shortest tail, therefore the most reducion of hubness.</p>
+<p>Hubness is still an open problem that daunts the high dimensional feature space. This research may impact other areas where retrieval is involved, e.g., few-shot learning, epsodic memory models.</p>
+<h3>Paper(s)</h3>
+<p><b>J. Huang</b>, Q. Qiu and K. W. Church. Hubless Nearest Neighbor Search for Bilingual Lexicon Induction. In Annual Meeting of the Association for Computational Linguistics (ACL), 2019.&nbsp;&nbsp;<a href="https://www.aclweb.org/anthology/P19-1399">[PDF]</a></p>
+<p><br /></p>
+<h2>Robustness and Generalization of Deep Neural Networks</h2>
+<table class="imgtable"><tr><td>
+<img src="files/robustness.png" alt="alt text" width="600px" />&nbsp;</td>
+<td align="left"><p>Deep neural networks have proved very successful in domains where large training sets are available, but when the number of training samples is small, their performance suffers from overfitting. To reduce overfitting, people have proposed various data independent regularizations, e.g. weight decay, dropout. In contrast, this series of works try to justify data dependent regualarizations. The key assumption is that input data have low dimensional structure, preserving which after the &ldquo;deep&rdquo; transformation may mitigate overfitting. </p>
+<p>An important theoretical tool we use is <a href="https://link.springer.com/content/pdf/10.1007/s10994-011-5268-1.pdf">(K, e)-robustness</a>. </p>
+</td></tr></table>
+<h3>Paper(s)</h3>
+<p>W. Zhu, Q. Qiu, <b>J. Huang</b>, R. Calderbank, G. Sapiro, and I. Daubechies. LDMNet: Low dimensional manifold regularized neural networks. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018. <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_LDMNet_Low_Dimensional_CVPR_2018_paper.pdf">[PDF]</a></p>
+<p><b>J. Huang</b>, Q. Qiu, R. Calderbank and G. Sapiro. GraphConnect: A Regularization Framework for Neural Networks. arXiv preprint arXiv:1512.06757, 2015. <a href="https://arxiv.org/pdf/1512.06757v1.pdf">[PDF]</a></p>
+<p><b>J. Huang</b>, Q. Qiu, R. Calderbank and G. Sapiro, Discriminative Robust Transformation Learning. Neural Information Processing Systems (NIPS), 2015. <a href="https://papers.nips.cc/paper/5975-discriminative-robust-transformation-learning.pdf">[PDF]</a></p>
+<p><b>J. Huang</b>, Q. Qiu, R. Calderbank and G. Sapiro, Geometry-aware Deep Transform. International Conference on Computer Vision (ICCV), 2015 <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Huang_Geometry-Aware_Deep_Transform_ICCV_2015_paper.pdf">[PDF]</a></p>
+<p><br /></p>
+<h2>Theory and Applications of Subspace Models</h2>
+<table class="imgtable"><tr><td>
+<img src="files/TRAIT.png" alt="alt text" width="300px" />&nbsp;</td>
+<td align="left"><p>The geometry of subspaces</p>
+</td></tr></table>
+<table class="imgtable"><tr><td>
+<img src="files/solar_detect.png" alt="alt text" width="300px" />&nbsp;</td>
+<td align="left"><p>Union of subspace models</p>
+</td></tr></table>
+<h3>Paper(s)</h3>
+<p><b>J. Huang</b>, Q. Qiu and R. Calderbank. The Role of Principal Angles in Subspace Classification. IEEE Transaction on Signal Processing, vol. 64, no. 8, 2016, 1933-1945. <a href="https://arxiv.org/pdf/1507.04230.pdf">[PDF]</a></p>
+<p>Y. Xie, <b>J. Huang</b>, and R. Willett. Changepoint detection for high-dimensional time series with missing data, IEEE Journal of Selected Topics on Signal Processing (J-STSP), vol. 7, no. 1, pp. 12-27. 2013. <a href="https://arxiv.org/pdf/1208.5062.pdf">[PDF]</a></p>
+</td>
+</tr>
+</table>
+</body>
+</html>

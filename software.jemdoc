@@ -1,0 +1,6 @@
+# jemdoc: menu{MENU}{software.html}, nofooter
+= Jiaji Huang -- Software 
+
+- [https://github.com/baidu-research/HNN HNN]: A package for retrieving word-level translations. The method first appears in our [https://www.aclweb.org/anthology/P19-1399 ACL 2019 paper]. The package fully reproduces all results in the paper. Clone from the github repo and follow the instructions there.
+
+- [https://services.math.duke.edu/~zhu/software/ldmnet_public.tar.gz LDMNet]: Code to reproduce an MNIST example in [http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_LDMNet_Low_Dimensional_CVPR_2018_paper.pdf LDMNet] paper.

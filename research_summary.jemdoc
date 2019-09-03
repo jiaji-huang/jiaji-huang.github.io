@@ -1,0 +1,59 @@
+# jemdoc: menu{MENU}{research_summary.html}, nofooter
+= Jiaji Huang -- Research Summary 
+
+== About this Page
+Blocks on this page summarize my most representative research works. Each of them is a blend of theory and applications, unveiling and exploiting the property of high dimensional spaces.
+
+\n
+== Retrieval: Beyond Nearest Neighbor Search
+~~~
+{}{img_left}{files/pt-en_k_5.png}{alt text}{300}{}{}
+Nearest Neighbor (NN) search may be the most general and widely applied retrieval method in multi-dimensional feature spaces. However, NN is often degraded by a phenomenon called [http://www.jmlr.org/papers/volume11/radovanovic10a/radovanovic10a.pdf hubness]. Hubness is a tendency in high dimensional space that some data points, called "hubs", are suspiciously close to many others. As a result, NN search may retrieve these "hubby" points more often than they should be.
+
+Earlier works, [https://openreview.net/pdf?id=r1Aab85gg Inverted SoFtmax (ISF, 2017)] and [https://arxiv.org/pdf/1710.04087.pdf Cross-domain Similarity Local Scaling (CSLS, 2018)] are heurestics that mitigate hubness and improve upon NN for [https://www.mitpressjournals.org/doi/pdfplus/10.1162/COLI_a_00284 bilingual lexicon induction] tasks. Nevertheless, still missing are a rigorious formulation and a thorough understanding of the hubness-reduction problem.
+
+The proposed Hubless Nearest Neighbor (HNN) search hinges upon an *Equal Preference Assumption*. We observe that the assumption approximately holds for bilingual lexicon induction between languages that share their origins. Essentially, it is a constraint that all items in the gallery are equally likely to be retrieved. The retrieval task is then re-formulated into a linear assignment problem. By relaxing its objective function, we can further derive an efficient solver that is parallelizable over GPUs.
+~~~
+
+The above figure is a comparison of measures of hubness after applying NN, ISF, CSLS and the proposed HNN. A long tail indicates that there exist some items being retrieved for excessive number of times. HNN has the shortest tail, therefore the most reducion of hubness.
+
+Hubness is still an open problem that daunts the high dimensional feature space. This research may impact other areas where retrieval is involved, e.g., few-shot learning, epsodic memory models.
+
+=== Paper(s)
+*J. Huang*, Q. Qiu and K. W. Church. Hubless Nearest Neighbor Search for Bilingual Lexicon Induction. In Annual Meeting of the Association for Computational Linguistics (ACL), 2019.~~[https://www.aclweb.org/anthology/P19-1399 \[PDF\]]
+
+\n
+== Robustness and Generalization of Deep Neural Networks
+~~~
+{}{img_left}{files/robustness.png}{alt text}{600}{}{}
+Deep neural networks have proved very successful in domains where large training sets are available, but when the number of training samples is small, their performance suffers from overfitting. To reduce overfitting, people have proposed various data independent regularizations, e.g. weight decay, dropout. In contrast, this series of works try to justify data dependent regualarizations. The key assumption is that input data have low dimensional structure, preserving which after the "deep" transformation may mitigate overfitting. 
+
+An important theoretical tool we use is [https://link.springer.com/content/pdf/10.1007/s10994-011-5268-1.pdf (K, e)-robustness]. 
+~~~
+
+=== Paper(s)
+W. Zhu, Q. Qiu, *J. Huang*, R. Calderbank, G. Sapiro, and I. Daubechies. LDMNet: Low dimensional manifold regularized neural networks. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018. [http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_LDMNet_Low_Dimensional_CVPR_2018_paper.pdf \[PDF\]]
+ 
+*J. Huang*, Q. Qiu, R. Calderbank and G. Sapiro. GraphConnect: A Regularization Framework for Neural Networks. arXiv preprint arXiv:1512.06757, 2015. [https://arxiv.org/pdf/1512.06757v1.pdf \[PDF\]]
+
+*J. Huang*, Q. Qiu, R. Calderbank and G. Sapiro, Discriminative Robust Transformation Learning. Neural Information Processing Systems (NIPS), 2015. [https://papers.nips.cc/paper/5975-discriminative-robust-transformation-learning.pdf \[PDF\]]
+
+*J. Huang*, Q. Qiu, R. Calderbank and G. Sapiro, Geometry-aware Deep Transform. International Conference on Computer Vision (ICCV), 2015 [https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Huang_Geometry-Aware_Deep_Transform_ICCV_2015_paper.pdf \[PDF\]]
+
+\n
+== Theory and Applications of Subspace Models
+~~~
+{}{img_left}{files/TRAIT.png}{alt text}{300}{}{}
+The geometry of subspaces
+~~~
+
+~~~
+{}{img_left}{files/solar_detect.png}{alt text}{300}{}{}
+Union of subspace models
+~~~
+
+=== Paper(s)
+*J. Huang*, Q. Qiu and R. Calderbank. The Role of Principal Angles in Subspace Classification. IEEE Transaction on Signal Processing, vol. 64, no. 8, 2016, 1933-1945. [https://arxiv.org/pdf/1507.04230.pdf \[PDF\]]
+
+Y. Xie, *J. Huang*, and R. Willett. Changepoint detection for high-dimensional time series with missing data, IEEE Journal of Selected Topics on Signal Processing (J-STSP), vol. 7, no. 1, pp. 12-27. 2013. [https://arxiv.org/pdf/1208.5062.pdf \[PDF\]]
+
