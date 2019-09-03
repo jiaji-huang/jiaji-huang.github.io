@@ -44,7 +44,7 @@ W. Zhu, Q. Qiu, *J. Huang*, R. Calderbank, G. Sapiro, and I. Daubechies. LDMNet:
 == Theory and Applications of Subspace Models
 ~~~
 {}{img_left}{files/TRAIT.png}{alt text}{300}{}{}
-The [https://en.wikipedia.org/wiki/Angles_between_flats\#Angles_between_subspaces principal angle] between subspaces is a fundamental measure of their differences, using which we could analyze classification error of data that are modeled as subspaces. When the mismatch between the signal and the subspace model is vanishingly small, the probability of misclassification is determined by the product of the sines of the principal angles between subspaces. When the mismatch is more significant, the probability of misclassification is determined by the sum of the squares of the sines of the principal angles. Reliability of classification is derived in terms of the distribution of signal energy across principal vectors.
+[https://en.wikipedia.org/wiki/Angles_between_flats\#Angles_between_subspaces Principal angle] is a fundamental measure of the difference between two subspaces. Using the principal angles, we could analyze classification error for data that are modeled as (a collection of) subspaces. When the mismatch between the signal and the subspace model is vanishingly small, the probability of misclassification is determined by the product of the sines of the principal angles between subspaces. When the mismatch is more significant, the probability of misclassification is determined by the sum of the squares of the sines of the principal angles. Reliability of classification is derived in terms of the distribution of signal energy across principal vectors. One application of the above result is to enhance discriminative feature for face recognition.
 ~~~
 
 ~~~
