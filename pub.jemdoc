@@ -15,13 +15,13 @@ IET Image Processing, Vol. 6, no. 7, pp. 976-985, 2012. [https://pdfs.semanticsc
 
 == Conference Papers
 *J. Huang*, Q. Qiu and K. W. Church. Hubless Nearest Neighbor Search for Bilingual Lexicon Induction. \n
-In Annual Meeting of the Association for Computational Linguistics (ACL), 2019.~~[https://www.aclweb.org/anthology/P19-1399 \[PDF\]]~[https://www.aclweb.org/anthology/attachments/P19-1399.Supplementary.pdf \[supplementary\]]~[https://github.com/baidu-research/HNN +\[Code\]+]\n
+In Annual Meeting of the Association for Computational Linguistics (ACL), 2019.~~[https://www.aclweb.org/anthology/P19-1399 \[PDF\]]~[https://www.aclweb.org/anthology/attachments/P19-1399.Supplementary.pdf \[Supplementary\]]~[https://github.com/baidu-research/HNN +\[Code\]+]\n
 
 *J. Huang*, Y. Li, W. Ping and L. Huang. Large Margin Neural Language Model. \n
 In Empirical Methods in Natural Language Processing (EMNLP), 2018. ~~[https://www.aclweb.org/anthology/D18-1150 \[PDF\]]~[https://vimeo.com/305208380 +\[talk\]+]
 
 W. Zhu, Q. Qiu, *J. Huang*, R. Calderbank, G. Sapiro, and I. Daubechies. LDMNet: Low dimensional manifold regularized neural networks. \n
-In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018. [http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_LDMNet_Low_Dimensional_CVPR_2018_paper.pdf \[PDF\]]
+In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018. [http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_LDMNet_Low_Dimensional_CVPR_2018_paper.pdf \[PDF\]]~[https://services.math.duke.edu/~zhu/software/ldmnet_public.tar.gz \[Code\]]
  
 W. Wang, Z. Gan, W. Wang, D. Shen, *J. Huang*, W. Ping, S. Satheesh and L. Carin. Topic Compositional Neural Language Model. \n
 Artificial Intelligence and Statistics (AISTATS), 2018. [http://proceedings.mlr.press/v84/wang18a/wang18a.pdf \[PDF\]]

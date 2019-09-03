@@ -36,16 +36,16 @@
 <p>The above figure is a comparison of measures of hubness after applying NN, ISF, CSLS and the proposed HNN. A long tail indicates that there exist some items being retrieved for excessive number of times. HNN has the shortest tail, therefore the most reducion of hubness.</p>
 <p>Hubness is still an open problem that daunts the high dimensional feature space. This research may impact other areas where retrieval is involved, e.g., few-shot learning, epsodic memory models.</p>
 <h3>Paper(s)</h3>
-<p><b>J. Huang</b>, Q. Qiu and K. W. Church. Hubless Nearest Neighbor Search for Bilingual Lexicon Induction. In Annual Meeting of the Association for Computational Linguistics (ACL), 2019.&nbsp;&nbsp;<a href="https://www.aclweb.org/anthology/P19-1399">[PDF]</a></p>
+<p><b>J. Huang</b>, Q. Qiu and K. W. Church. Hubless Nearest Neighbor Search for Bilingual Lexicon Induction. In Annual Meeting of the Association for Computational Linguistics (ACL), 2019.&nbsp;&nbsp;<a href="https://www.aclweb.org/anthology/P19-1399">[PDF]</a>&nbsp;<a href="https://www.aclweb.org/anthology/attachments/P19-1399.Supplementary.pdf">[Supplementary]</a>&nbsp;<a href="https://github.com/baidu-research/HNN">[Code]</a></p>
 <p><br /></p>
 <h2>Robustness and Generalization of Deep Neural Networks</h2>
 <table class="imgtable"><tr><td>
 <img src="files/robustness.png" alt="alt text" width="600px" />&nbsp;</td>
-<td align="left"><p>Deep neural networks have proved very successful in domains where large training sets are available, but when the number of training samples is small, their performance suffers from overfitting. To reduce overfitting, people have proposed various data independent regularizations, e.g. weight decay, dropout. In contrast, this series of works try to justify data dependent regualarizations. The key assumption is that input data have low dimensional structure, preserving which after the &ldquo;deep&rdquo; transformation may mitigate overfitting. </p>
-<p>An important theoretical tool we use is <a href="https://link.springer.com/content/pdf/10.1007/s10994-011-5268-1.pdf">(K, e)-robustness</a>. </p>
+<td align="left"><p>Deep neural networks have proved very successful in domains where large training sets are available, but when the number of training samples is small, their performance suffers from overfitting. To reduce overfitting, people have proposed various data independent regularizations, e.g. weight decay, dropout.</p>
+<p>In contrast, this series of works try to justify data dependent regualarizations. The key assumption is that input data have interesting &ldquo;local&rdquo; structure, preserving which after the &ldquo;deep&rdquo; transformation may mitigate overfitting. An important theoretical tool we use is <a href="https://link.springer.com/content/pdf/10.1007/s10994-011-5268-1.pdf"><img src="http://latex.codecogs.com/gif.latex?(K, \epsilon)" border="0"/>-robustness</a>. Essentially it requires a small perturbation in the input only incurring a small change in the output decision. We show that preservation of local distances results in a robust neural network, which has (provable) smaller generalization error than weight decay.</p>
 </td></tr></table>
 <h3>Paper(s)</h3>
-<p>W. Zhu, Q. Qiu, <b>J. Huang</b>, R. Calderbank, G. Sapiro, and I. Daubechies. LDMNet: Low dimensional manifold regularized neural networks. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018. <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_LDMNet_Low_Dimensional_CVPR_2018_paper.pdf">[PDF]</a></p>
+<p>W. Zhu, Q. Qiu, <b>J. Huang</b>, R. Calderbank, G. Sapiro, and I. Daubechies. LDMNet: Low dimensional manifold regularized neural networks. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018. <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_LDMNet_Low_Dimensional_CVPR_2018_paper.pdf">[PDF]</a> <a href="https://services.math.duke.edu/~zhu/software/ldmnet_public.tar.gz">[Code]</a></p>
 <p><b>J. Huang</b>, Q. Qiu, R. Calderbank and G. Sapiro. GraphConnect: A Regularization Framework for Neural Networks. arXiv preprint arXiv:1512.06757, 2015. <a href="https://arxiv.org/pdf/1512.06757v1.pdf">[PDF]</a></p>
 <p><b>J. Huang</b>, Q. Qiu, R. Calderbank and G. Sapiro, Discriminative Robust Transformation Learning. Neural Information Processing Systems (NIPS), 2015. <a href="https://papers.nips.cc/paper/5975-discriminative-robust-transformation-learning.pdf">[PDF]</a></p>
 <p><b>J. Huang</b>, Q. Qiu, R. Calderbank and G. Sapiro, Geometry-aware Deep Transform. International Conference on Computer Vision (ICCV), 2015 <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Huang_Geometry-Aware_Deep_Transform_ICCV_2015_paper.pdf">[PDF]</a></p>
@@ -53,15 +53,18 @@
 <h2>Theory and Applications of Subspace Models</h2>
 <table class="imgtable"><tr><td>
 <img src="files/TRAIT.png" alt="alt text" width="300px" />&nbsp;</td>
-<td align="left"><p>The <b>principle angle</b> between subspaces is a fundamental measure of their differences</p>
+<td align="left"><p>The <a href="https://en.wikipedia.org/wiki/Angles_between_flats#Angles_between_subspaces">principal angle</a> between subspaces is a fundamental measure of their differences, using which we could analyze classification error of data that are modeled as subspaces. When the mismatch between the signal and the subspace model is vanishingly small, the probability of misclassification is determined by the product of the sines of the principal angles between subspaces. When the mismatch is more significant, the probability of misclassification is determined by the sum of the squares of the sines of the principal angles. Reliability of classification is derived in terms of the distribution of signal energy across principal vectors.</p>
 </td></tr></table>
 <table class="imgtable"><tr><td>
 <img src="files/solar_detect.png" alt="alt text" width="300px" />&nbsp;</td>
-<td align="left"><p>Union of subspace models</p>
+<td align="left"><p>Union of affine Subspaces (UoS) is a powerful model to approximate low dimensional manifold embedded in high dimensional space. However, in real world applications, the data manifold is often noisy, with missing observations, and dynamically evolving. Albeit these challenges, we show that an UoS can still be learned by leveraging subspace tracking with missing data, multiscale analysis techniques for point clouds, and online optimization.</p>
+<p>Residual of the UoS approximation is a nice statistic that can be used for anomaly detection. An example is detection of hidden solar flares from noisy sensor data.</p>
 </td></tr></table>
 <h3>Paper(s)</h3>
 <p><b>J. Huang</b>, Q. Qiu and R. Calderbank. The Role of Principal Angles in Subspace Classification. IEEE Transaction on Signal Processing, vol. 64, no. 8, 2016, 1933-1945. <a href="https://arxiv.org/pdf/1507.04230.pdf">[PDF]</a></p>
+<p><b>J. Huang</b>, Q. Qiu, R. Calderbank, M. Rodrigues and G. Sapiro, Alignment with Intra-class Structure can imporve classification. 40th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2015. <a href="files/transformSubspace.pdf">[PDF]</a></p>
 <p>Y. Xie, <b>J. Huang</b>, and R. Willett. Changepoint detection for high-dimensional time series with missing data, IEEE Journal of Selected Topics on Signal Processing (J-STSP), vol. 7, no. 1, pp. 12-27. 2013. <a href="https://arxiv.org/pdf/1208.5062.pdf">[PDF]</a></p>
+<p>Y. Xie, <b>J. Huang</b>, and R. Willett. Multiscale online tracking of manifolds. 2012 IEEE Statistical Signal Processing Workshop (SSP). <a href="files/mousse_ssp.pdf">[PDF]</a></p>
 </td>
 </tr>
 </table>
