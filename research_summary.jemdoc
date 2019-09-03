@@ -44,7 +44,7 @@ W. Zhu, Q. Qiu, *J. Huang*, R. Calderbank, G. Sapiro, and I. Daubechies. LDMNet:
 == Theory and Applications of Subspace Models
 ~~~
 {}{img_left}{files/TRAIT.png}{alt text}{300}{}{}
-The geometry of subspaces
+The *principle angle* between subspaces is a fundamental measure of their differences
 ~~~
 
 ~~~
