@@ -20,7 +20,7 @@ The above figure is a comparison of measures of hubness after applying NN, ISF, 
 Hubness is still an open problem that daunts the high dimensional feature space. This research may impact other areas where retrieval is involved, e.g., few-shot learning, epsodic memory models.
 
 === Paper(s)
-*J. Huang*, Q. Qiu and K. W. Church. Hubless Nearest Neighbor Search for Bilingual Lexicon Induction. In Annual Meeting of the Association for Computational Linguistics (ACL), 2019.~~[https://www.aclweb.org/anthology/P19-1399 \[PDF\]]~[https://www.aclweb.org/anthology/attachments/P19-1399.Supplementary.pdf \[Supplementary\]]~[https://github.com/baidu-research/HNN \[Code\]]~[http://research.baidu.com/Blog/index-view?id=119 Blogpost]
+*J. Huang*, Q. Qiu and K. W. Church. Hubless Nearest Neighbor Search for Bilingual Lexicon Induction. In Annual Meeting of the Association for Computational Linguistics (ACL), 2019.~~[https://www.aclweb.org/anthology/P19-1399 \[PDF\]]~[https://www.aclweb.org/anthology/attachments/P19-1399.Supplementary.pdf \[Supplementary\]]~[https://github.com/baidu-research/HNN \[Code\]]~[http://research.baidu.com/Blog/index-view?id=119 \[Blogpost\]]
 
 \n
 == Robustness and Generalization of Deep Neural Networks
