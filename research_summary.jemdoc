@@ -22,7 +22,7 @@ Hubness is still an open problem that daunts the high dimensional feature space.
 === Paper(s)
 *J. Huang*, Q. Qiu and K. W. Church. Hubless Nearest Neighbor Search for Bilingual Lexicon Induction. In Annual Meeting of the Association for Computational Linguistics (ACL), 2019.~~[https://www.aclweb.org/anthology/P19-1399 \[PDF\]]~[https://www.aclweb.org/anthology/attachments/P19-1399.Supplementary.pdf \[Supplementary\]]~[https://github.com/baidu-research/HNN \[Code\]]~[http://research.baidu.com/Blog/index-view?id=119 \[Blogpost\]]
 
-*J. Huang*, X. Cai and K. W. Church. Improving Bilingual Lexicon Induction for Low Frequency Words. In proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. ~~[https://www.aclweb.org/anthology/2020.emnlp-main.100.pdf\[PDF\]][https://studio.slideslive.com/web_recorder/share/20201025T065839Z__EMNLP__main-conference__2818__improving-bilingual-lexicon-in?s=a8cc5464-aa2c-4510-8203-3121dc4bf39d\[Video\]]
+*J. Huang*, X. Cai and K. W. Church. Improving Bilingual Lexicon Induction for Low Frequency Words. In proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. ~~[https://www.aclweb.org/anthology/2020.emnlp-main.100.pdf \[PDF\]]~[https://studio.slideslive.com/web_recorder/share/20201025T065839Z__EMNLP__main-conference__2818__improving-bilingual-lexicon-in?s=a8cc5464-aa2c-4510-8203-3121dc4bf39d \[Video\]]
 
 \n
 == Robustness and Generalization of Deep Neural Networks
