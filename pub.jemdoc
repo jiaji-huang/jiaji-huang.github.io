@@ -14,6 +14,9 @@ Y. Zhou, Z. Ye, and *J. Huang*. Improved decision-based detail-preserving variat
 IET Image Processing, Vol. 6, no. 7, pp. 976-985, 2012. [https://pdfs.semanticscholar.org/17d2/7f382bbc327ab606974a87e161908ed926c2.pdf \[PDF\]]
 
 == Conference Papers
+*J. Huang*, X. Cai and K. W. Church. Improving Bilingual Lexicon Induction for Low Frequency Words. \n
+In proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020.~~[https://www.aclweb.org/anthology/2020.emnlp-main.100.pdf\[PDF\]]\n
+
 *J. Huang*, Q. Qiu and K. W. Church. Hubless Nearest Neighbor Search for Bilingual Lexicon Induction. \n
 In Annual Meeting of the Association for Computational Linguistics (ACL), 2019.~~[https://www.aclweb.org/anthology/P19-1399 \[PDF\]]~[https://www.aclweb.org/anthology/attachments/P19-1399.Supplementary.pdf \[Supplementary\]]~[https://github.com/baidu-research/HNN +\[Code\]+]\n
 
