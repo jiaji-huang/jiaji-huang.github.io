@@ -6,7 +6,7 @@ Jiaji Huang is a senior research scientist at Baidu Research, Silicon Valley AI 
 
 His recent research interest is mainly in computational linguistics and natural language processing, especially problems that are less driven by the amount of supervised data. For example, language modeling and word embedding are two very recent and representative directions he is working on. He is always fascinated by the geometry of word/phrase embedding space, and its connection with semantics.
 
-He has been actively publishing as first author in several top conferences/journals, including NIPS, ICCV, EMNLP, ACL, IEEE Transaction on Signal Processing and SIAM journal on Imaging Sciences. He has an [https://oakland.edu/enp/ Erdős number] of 3.
+He has been actively publishing as first author in several top conferences/journals, including NeurIPS, ICCV, EMNLP, ACL, IEEE Transaction on Signal Processing and SIAM journal on Imaging Sciences. He has an [https://oakland.edu/enp/ Erdős number] of 3.
 
 == Education
 - 04\/2016~~Ph.D in Electrical Engineering (Advisor: [https://en.wikipedia.org/wiki/Robert_Calderbank Robert Calderbank]) \n
@@ -27,9 +27,9 @@ He has been actively publishing as first author in several top conferences/journ
 == Professional Services
 Reviewer for
 - IEEE Transactions on Signal Processing
-- IEEE Transactions on Knowledge and Data Engineering
+- Conference on Neural Information Processing Systems (NeurIPS)
+- International Conference on Machine Learning (ICML)
+- Association for Computational Linguistics (ACL)
+- Conference on Empirical Methods in Natural Language Processing (EMNLP) 
 - Association for the Advancement of Artificial Intelligence (AAAI)
-- International Joint Conference on Artificial Intelligence (IJCAI)
 - International Conference on Acoustics, Speech and Signal Processing (ICASSP)
-- Global Conference on Signal and Information Processing (GlobalSip)
-- International Conference on Image Processing (ICIP)
