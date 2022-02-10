@@ -20,7 +20,7 @@ This onging effort connects to many fields in machine learning and NLP. Other th
 === Paper(s)
 *J. Huang*, Q. Qiu, and K. W. Church. Exploiting a Zoo of Checkpoints for Unseen Tasks. In Neurips, 2021. ~~[https://proceedings.neurips.cc/paper/2021/file/a1c3ae6c49a89d92aef2d423dadb477f-Paper.pdf \[PDF\]]
 
-X. Cai, *J. Huang*, Y. Bian, K. W. Church. Isotropy in the contextual embedding space: Clusters and manifolds. In ICLR, 2021 ~~[https://openreview.net/pdf?id=xYGNO86OWDH \[PDF\]]
+X. Cai, *J. Huang*, Y. Bian, K. W. Church. Isotropy in the contextual embedding space: Clusters and manifolds. In ICLR, 2021. ~~[https://openreview.net/pdf?id=xYGNO86OWDH \[PDF\]]
 
 Y. Bian, *J. Huang*, X. Cai, J. Yuan and K. W. Church. On attention redundancy: A comprehensive study. In NAACL, 2021. ~~[https://aclanthology.org/2021.naacl-main.72.pdf \[PDF\]]
 
