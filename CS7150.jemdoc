@@ -1,0 +1,108 @@
+# jemdoc: menu{MENU}{CS7150.html}, nofooter
+= Notheastern CS7150 Deep Learning
+
+
+== Course Information
+Deep learning is a subfield of machine learning that builds highly parameterized (deep) models from large volume of data, widely deployed in many industrial systems.
+Applications cover computer vision, language, speech, robotics, etc. Deep learning advances so rapidly that it has become one of the most popular field to study.
+
+This course will introduce students to
+
+1) basic building blocks of deep models, e.g., convolution, activation functions, attention
+
+2) typical architectures, e.g., encoder-decoder for seq-to-seq tasks
+
+3) training and evaluation of these models, e.g., variants of stochastic optimizers
+
+Some cutting edge research topics will also be discussed, e.g., interpretability, model compression, self-supervised pretraining. There will be a course project that encourages student to explore more of these open-ended problems.
+
+
+== Class \& Links
+Lecture: Saturday 9:00 am - 12:20 pm
+
+Office hours: Saturday 2:00 pm - 3:00 pm 
+
+TA: Pratyaksh Bhalla (bhalla.pr@northeastern.edu)
+
+Textbooks:
+- [https://www.deeplearningbook.org Deep Learning] by Goodfellow, Bengio and Courville
+- [https://www.bishopbook.com Deep Learning, Foundations and Concepts] by C. M. Bishop and H. Bishop
+- [https://arxiv.org/abs/2201.02135 Deep Reinforcement Learning] by Plaat
+#- [https://inst.eecs.berkeley.edu/~cs188/sp20/assets/files/SuttonBartoIPRLBook2ndEd.pdf Reinforcement Learning: An Introduction 2nd Edition] by Sutton and Barto
+
+Grade: 20\% homework \+ 40\% midterm exam \+ 40\% project
+
+== Syllabus
+01\/13
+- Topics: Introduction, Prerequisites
+- Readings: textbook chapters [https://www.deeplearningbook.org/contents/linear_algebra.html linear algerbra], [https://www.deeplearningbook.org/contents/prob.html probabilities], [https://proceedings.mlr.press/v206/kleindessner23a/kleindessner23a.pdf fair PCA]
+- Assignment: TBD
+
+01\/20
+- Topics: Convolutional network and computer vision
+- Readings: [https://arxiv.org/pdf/1512.03385.pdf ResNet], [https://arxiv.org/pdf/1608.06993.pdf DenseNet]
+- Assignment:
+
+01\/27
+- Topics: RNN, LSTM, Transformer
+- Readings:
+- Assignment:
+
+02\/03
+- Topics: NLP and Speech applications, Seq-to-Seq Models
+- Readings:
+- Assignment:
+
+02\/10
+- Topics: Back propagation, stochastic optimizers, parallelism
+- Readings:
+- Assignment:
+
+02\/17
+- Topics: Overfitting, Generalization
+- Readings:
+- Assignment:
+
+02\/24
+Midterm Exam
+
+03\/02
+- Topics: Large Language Models, finetuning methods
+- Readings:
+- Assignment:
+
+03\/09
+- Topics: Sparsity, Distillation, Model Compression
+- Readings:
+- Assignment:
+
+03\/16:
+- Topics: Interpretability, Information bottleneck, adverserial attacks
+- Readings:
+- Assignment
+
+03\/23
+- Topics: Multi-task Learning, meta-learning, zero-shot Learning
+- Readings:
+- Assignment
+
+03\/30
+- Topics: Generative Models
+- Readings:
+- Assignment
+
+04\/06
+- Topics: Reinforcement Learning (Guest Lecture)
+- Readings:
+- Assignment:
+
+04\/13
+- Topics: Graph Neural Networks (Guest Lecture)
+- Readings:
+- Assignment:
+
+04\/20
+- Final Project Presentation 1
+
+04\/27
+- Final Project Presentation 2

@@ -18,69 +18,62 @@
 <div class="menu-item"><a href="research_summary.html" class="current">Summary</a></div>
 <div class="menu-item"><a href="pub.html">Publications</a></div>
 <div class="menu-item"><a href="software.html">Software</a></div>
+<div class="menu-category">Teaching</div>
+<div class="menu-item"><a href="CS7150.html">Deep&nbsp;Learning</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
 <h1>Jiaji Huang &ndash; Research Summary </h1>
 </div>
 <h2>About this Page</h2>
-<p>Blocks on this page summarize my most representative research works. Each of them is a blend of theory and applications, unveiling and exploiting the property of high dimensional spaces.</p>
-<p><br /></p>
+<p>Blocks on this page summarize my most representative research works. Each of them is a blend of theory and applications, unveiling and exploiting the property of high dimensional spaces.
+</p>
+<p><br />
+</p>
 <h2>Bertology: Interpret and Improve Language Models</h2>
 <table class="imgtable"><tr><td>
 <img src="files/dendrogram.png" alt="alt text" width="500px" />&nbsp;</td>
-<td align="left"><p>Pretrained Language Models (LM), e.g., BERT, are very successful. However, it is still mysterious why they can generalize so well. The joint force of interpretability and language modeling has created a new research community called <a href="https://arxiv.org/pdf/2002.12327.pdf">Bertology</a>.</p>
-<p>Probing tasks are widely used in Bertology. That is, applying an LM to a probing task. If the LM works well, then we would agree that task-relevant information (e.g., syntatic, semantic) is captured. In other words, &ldquo;probing&rdquo; is an extrinsic approach. It attempts to understand a blackbox (the LM) via another box (the probing task) that is &ldquo;less black&rdquo;. </p>
-<p>Different from probing, we take a more intrinsic approach, through comparing and contrasting the LMs. We discover interesting similarity patterns among a zoo of LMs. The left figure is one visualization of the similarities among 34 language models (downloadable from <a href="https://huggingface.co/models">huggingface model hub</a>). The pattern hints on many possibilities of practical interests, e.g., picking the right LM for your tasks (see our <a href="https://proceedings.neurips.cc/paper/2021/file/a1c3ae6c49a89d92aef2d423dadb477f-Paper.pdf">Neurips2021</a> paper). In addition, intriguing similarity pattern also exists inside the building blocks of an LM. For example, among attention heads. One immediate follow-up question is, &ldquo;can we prune the LMs more effectively by taking advantage of this similarity pattern?&rdquo;</p>
-<p>This onging effort connects to many fields in machine learning and NLP. Other than the above mentioned applications, it also seeks to answer fundamental questions in <a href="https://en.wikipedia.org/wiki/Transfer_learning">transferability</a> and <a href="https://en.wikipedia.org/wiki/Neural_tangent_kernel">learning dynamics</a>.</p>
+<td align="left"><p>Pretrained Language Models (LM), e.g., BERT, are very successful. However, it is still mysterious why they can generalize so well. The joint force of interpretability and language modeling has created a new research community called <a href="https://arxiv.org/pdf/2002.12327.pdf" target=&ldquo;blank&rdquo;>Bertology</a>.
+</p>
+<p>Probing tasks are widely used in Bertology. That is, applying an LM to a probing task. If the LM works well, then we would agree that task-relevant information (e.g., syntatic, semantic) is captured. In other words, &ldquo;probing&rdquo; is an extrinsic approach. It attempts to understand a blackbox (the LM) via another box (the probing task) that is &ldquo;less black&rdquo;. 
+</p>
+<p>Different from probing, we take a more intrinsic approach, through comparing and contrasting the LMs. We discover interesting similarity patterns among a zoo of LMs. The left figure is one visualization of the similarities among 34 language models (downloadable from <a href="https://huggingface.co/models" target=&ldquo;blank&rdquo;>huggingface model hub</a>). The pattern hints on many possibilities of practical interests, e.g., picking the right LM for your tasks (see our <a href="https://proceedings.neurips.cc/paper/2021/file/a1c3ae6c49a89d92aef2d423dadb477f-Paper.pdf" target=&ldquo;blank&rdquo;>Neurips2021</a> paper). In addition, intriguing similarity pattern also exists inside the building blocks of an LM. For example, among attention heads. One immediate follow-up question is, &ldquo;can we prune the LMs more effectively by taking advantage of this similarity pattern?&rdquo;
+</p>
+<p>This onging effort connects to many fields in machine learning and NLP. Other than the above mentioned applications, it also seeks to answer fundamental questions in <a href="https://en.wikipedia.org/wiki/Transfer_learning" target=&ldquo;blank&rdquo;>transferability</a> and <a href="https://en.wikipedia.org/wiki/Neural_tangent_kernel" target=&ldquo;blank&rdquo;>learning dynamics</a>.
+</p>
 </td></tr></table>
 <h3>Paper(s)</h3>
-<p><b>J. Huang</b>, Q. Qiu, and K. W. Church. Exploiting a Zoo of Checkpoints for Unseen Tasks. In Neurips, 2021. &nbsp;&nbsp;<a href="https://proceedings.neurips.cc/paper/2021/file/a1c3ae6c49a89d92aef2d423dadb477f-Paper.pdf">[PDF]</a></p>
-<p>X. Cai, <b>J. Huang</b>, Y. Bian, K. W. Church. Isotropy in the contextual embedding space: Clusters and manifolds. In ICLR, 2021. &nbsp;&nbsp;<a href="https://openreview.net/pdf?id=xYGNO86OWDH">[PDF]</a></p>
-<p>Y. Bian, <b>J. Huang</b>, X. Cai, J. Yuan and K. W. Church. On attention redundancy: A comprehensive study. In NAACL, 2021. &nbsp;&nbsp;<a href="https://aclanthology.org/2021.naacl-main.72.pdf">[PDF]</a></p>
-<p><br /></p>
+<p><b>J. Huang</b>, Q. Qiu, and K. W. Church. Exploiting a Zoo of Checkpoints for Unseen Tasks. In Neurips, 2021. &nbsp;&nbsp;<a href="https://proceedings.neurips.cc/paper/2021/file/a1c3ae6c49a89d92aef2d423dadb477f-Paper.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>
+</p>
+<p>X. Cai, <b>J. Huang</b>, Y. Bian, K. W. Church. Isotropy in the contextual embedding space: Clusters and manifolds. In ICLR, 2021. &nbsp;&nbsp;<a href="https://openreview.net/pdf?id=xYGNO86OWDH" target=&ldquo;blank&rdquo;>[PDF]</a>
+</p>
+<p>Y. Bian, <b>J. Huang</b>, X. Cai, J. Yuan and K. W. Church. On attention redundancy: A comprehensive study. In NAACL, 2021. &nbsp;&nbsp;<a href="https://aclanthology.org/2021.naacl-main.72.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>
+</p>
+<p><br />
+</p>
 <h2>Retrieval: Beyond Nearest Neighbor Search</h2>
 <table class="imgtable"><tr><td>
 <img src="files/pt-en_k_5.png" alt="alt text" width="300px" />&nbsp;</td>
-<td align="left"><p>Nearest Neighbor (NN) search may be the most general and widely applied retrieval method in multi-dimensional feature spaces. However, NN is often degraded by a phenomenon called <a href="http://www.jmlr.org/papers/volume11/radovanovic10a/radovanovic10a.pdf">hubness</a>. Hubness is a tendency in high dimensional space that some data points, called &ldquo;hubs&rdquo;, are suspiciously close to many others. As a result, NN search may retrieve these &ldquo;hubby&rdquo; points more often than they should be.</p>
-<p>Earlier works, <a href="https://openreview.net/pdf?id=r1Aab85gg">Inverted SoFtmax (ISF, 2017)</a> and <a href="https://arxiv.org/pdf/1710.04087.pdf">Cross-domain Similarity Local Scaling (CSLS, 2018)</a> are heurestics that mitigate hubness and improve upon NN for <a href="https://www.mitpressjournals.org/doi/pdfplus/10.1162/COLI_a_00284">bilingual lexicon induction</a> tasks. Nevertheless, still missing are a rigorious formulation and a thorough understanding of the hubness-reduction problem.</p>
-<p>The proposed Hubless Nearest Neighbor (HNN) search hinges upon an <b>Equal Preference Assumption</b>. We observe that the assumption approximately holds for bilingual lexicon induction between languages that share their origins. Essentially, it is a constraint that all items in the gallery are equally likely to be retrieved. The retrieval task is then re-formulated into a linear assignment problem. By relaxing its objective function, we can further derive an efficient solver that is parallelizable over GPUs.</p>
+<td align="left"><p>Nearest Neighbor (NN) search may be the most general and widely applied retrieval method in multi-dimensional feature spaces. However, NN is often degraded by a phenomenon called <a href="http://www.jmlr.org/papers/volume11/radovanovic10a/radovanovic10a.pdf" target=&ldquo;blank&rdquo;>hubness</a>. Hubness is a tendency in high dimensional space that some data points, called &ldquo;hubs&rdquo;, are suspiciously close to many others. As a result, NN search may retrieve these &ldquo;hubby&rdquo; points more often than they should be.
+</p>
+<p>Earlier works, <a href="https://openreview.net/pdf?id=r1Aab85gg" target=&ldquo;blank&rdquo;>Inverted SoFtmax (ISF, 2017)</a> and <a href="https://arxiv.org/pdf/1710.04087.pdf" target=&ldquo;blank&rdquo;>Cross-domain Similarity Local Scaling (CSLS, 2018)</a> are heurestics that mitigate hubness and improve upon NN for <a href="https://www.mitpressjournals.org/doi/pdfplus/10.1162/COLI_a_00284" target=&ldquo;blank&rdquo;>bilingual lexicon induction</a> tasks. Nevertheless, still missing are a rigorious formulation and a thorough understanding of the hubness-reduction problem.
+</p>
+<p>The proposed Hubless Nearest Neighbor (HNN) search hinges upon an <b>Equal Preference Assumption</b>. We observe that the assumption approximately holds for bilingual lexicon induction between languages that share their origins. Essentially, it is a constraint that all items in the gallery are equally likely to be retrieved. The retrieval task is then re-formulated into a linear assignment problem. By relaxing its objective function, we can further derive an efficient solver that is parallelizable over GPUs.
+</p>
 </td></tr></table>
-<p>The above figure is a comparison of measures of hubness after applying NN, ISF, CSLS and the proposed HNN. A long tail indicates that there exist some items being retrieved for excessive number of times. HNN has the shortest tail, therefore the most reducion of hubness.</p>
-<p>Hubness is still an open problem that daunts the high dimensional feature space. This research may impact other areas where retrieval is involved, e.g., few-shot learning, epsodic memory models.</p>
+<p>The above figure is a comparison of measures of hubness after applying NN, ISF, CSLS and the proposed HNN. A long tail indicates that there exist some items being retrieved for excessive number of times. HNN has the shortest tail, therefore the most reducion of hubness.
+</p>
+<p>Hubness is still an open problem that daunts the high dimensional feature space. This research may impact other areas where retrieval is involved, e.g., few-shot learning, epsodic memory models.
+</p>
 <h3>Paper(s)</h3>
-<p><b>J. Huang</b>, Q. Qiu and K. W. Church. Hubless Nearest Neighbor Search for Bilingual Lexicon Induction. In Annual Meeting of the Association for Computational Linguistics (ACL), 2019.&nbsp;&nbsp;<a href="https://www.aclweb.org/anthology/P19-1399">[PDF]</a>&nbsp;<a href="https://www.aclweb.org/anthology/attachments/P19-1399.Supplementary.pdf">[Supplementary]</a>&nbsp;<a href="https://github.com/baidu-research/HNN">[Code]</a>&nbsp;<a href="http://research.baidu.com/Blog/index-view?id=119">[Blogpost]</a></p>
-<p><b>J. Huang</b>, X. Cai and K. W. Church. Improving Bilingual Lexicon Induction for Low Frequency Words. In proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. &nbsp;&nbsp;<a href="https://www.aclweb.org/anthology/2020.emnlp-main.100.pdf">[PDF]</a>&nbsp;<a href="https://studio.slideslive.com/web_recorder/share/20201025T065839Z__EMNLP__main-conference__2818__improving-bilingual-lexicon-in?s=a8cc5464-aa2c-4510-8203-3121dc4bf39d">[Talk]</a></p>
-<p><br /></p>
+<p><b>J. Huang</b>, Q. Qiu and K. W. Church. Hubless Nearest Neighbor Search for Bilingual Lexicon Induction. In Annual Meeting of the Association for Computational Linguistics (ACL), 2019.&nbsp;&nbsp;<a href="https://www.aclweb.org/anthology/P19-1399" target=&ldquo;blank&rdquo;>[PDF]</a>&nbsp;<a href="https://www.aclweb.org/anthology/attachments/P19-1399.Supplementary.pdf" target=&ldquo;blank&rdquo;>[Supplementary]</a>&nbsp;<a href="https://github.com/baidu-research/HNN" target=&ldquo;blank&rdquo;>[Code]</a>&nbsp;<a href="http://research.baidu.com/Blog/index-view?id=119" target=&ldquo;blank&rdquo;>[Blogpost]</a>
+</p>
+<p><b>J. Huang</b>, X. Cai and K. W. Church. Improving Bilingual Lexicon Induction for Low Frequency Words. In proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. &nbsp;&nbsp;<a href="https://www.aclweb.org/anthology/2020.emnlp-main.100.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>&nbsp;<a href="https://studio.slideslive.com/web_recorder/share/20201025T065839Z__EMNLP__main-conference__2818__improving-bilingual-lexicon-in?s=a8cc5464-aa2c-4510-8203-3121dc4bf39d" target=&ldquo;blank&rdquo;>[Talk]</a>
+</p>
+<p><br />
+</p>
 <h2>Robustness and Generalization of Deep Neural Networks</h2>
 <table class="imgtable"><tr><td>
 <img src="files/robustness.png" alt="alt text" width="600px" />&nbsp;</td>
-<td align="left"><p>Deep neural networks have proved very successful in domains where large training sets are available, but when the number of training samples is small, their performance suffers from overfitting. To reduce overfitting, people have proposed various data independent regularizations, e.g. weight decay, dropout.</p>
-<p>In contrast, this series of works try to justify data dependent regualarizations. The key assumption is that input data have interesting &ldquo;local&rdquo; structure, preserving which after the &ldquo;deep&rdquo; transformation may mitigate overfitting. An important theoretical tool we use is <a href="https://link.springer.com/content/pdf/10.1007/s10994-011-5268-1.pdf"><img src="http://latex.codecogs.com/gif.latex?(K, \epsilon)" border="0"/>-robustness</a>. Essentially it requires a small perturbation in the input only incurring a small change in the output decision. We show that preservation of local distances results in a robust neural network, which has (provable) smaller generalization error than weight decay.</p>
-</td></tr></table>
-<h3>Paper(s)</h3>
-<p>W. Zhu, Q. Qiu, <b>J. Huang</b>, R. Calderbank, G. Sapiro, and I. Daubechies. LDMNet: Low dimensional manifold regularized neural networks. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018. <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_LDMNet_Low_Dimensional_CVPR_2018_paper.pdf">[PDF]</a> <a href="https://services.math.duke.edu/~zhu/software/ldmnet_public.tar.gz">[Code]</a></p>
-<p><b>J. Huang</b>, Q. Qiu, R. Calderbank and G. Sapiro. GraphConnect: A Regularization Framework for Neural Networks. arXiv preprint arXiv:1512.06757, 2015. <a href="https://arxiv.org/pdf/1512.06757v1.pdf">[PDF]</a></p>
-<p><b>J. Huang</b>, Q. Qiu, R. Calderbank and G. Sapiro, Discriminative Robust Transformation Learning. Neural Information Processing Systems (NIPS), 2015. <a href="https://papers.nips.cc/paper/5975-discriminative-robust-transformation-learning.pdf">[PDF]</a></p>
-<p><b>J. Huang</b>, Q. Qiu, R. Calderbank and G. Sapiro, Geometry-aware Deep Transform. International Conference on Computer Vision (ICCV), 2015 <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Huang_Geometry-Aware_Deep_Transform_ICCV_2015_paper.pdf">[PDF]</a></p>
-<p><br /></p>
-<h2>Theory and Applications of Subspace Models</h2>
-<table class="imgtable"><tr><td>
-<img src="files/TRAIT.png" alt="alt text" width="300px" />&nbsp;</td>
-<td align="left"><p><a href="https://en.wikipedia.org/wiki/Angles_between_flats#Angles_between_subspaces">Principal angle</a> is a fundamental measure of the difference between two subspaces. Using the principal angles, we could analyze classification error for data that are modeled as (a collection of) subspaces. When the mismatch between the signal and the subspace model is vanishingly small, the probability of misclassification is determined by the product of the sines of the principal angles between subspaces. When the mismatch is more significant, the probability of misclassification is determined by the sum of the squares of the sines of the principal angles. Reliability of classification is derived in terms of the distribution of signal energy across principal vectors. One application of the above result is to enhance discriminative feature for face recognition.</p>
-</td></tr></table>
-<table class="imgtable"><tr><td>
-<img src="files/solar_detect.png" alt="alt text" width="300px" />&nbsp;</td>
-<td align="left"><p>Union of affine Subspaces (UoS) is a powerful model to approximate low dimensional manifold embedded in high dimensional space. However, in real world applications, the data manifold is often noisy, with missing observations, and dynamically evolving. Albeit these challenges, we show that an UoS can still be learned by leveraging subspace tracking with missing data, multiscale analysis techniques for point clouds, and online optimization.</p>
-<p>Residual of the UoS approximation is a nice statistic that can be used for anomaly detection. An example is detection of hidden solar flares from noisy sensor data.</p>
-</td></tr></table>
-<h3>Paper(s)</h3>
-<p><b>J. Huang</b>, Q. Qiu and R. Calderbank. The Role of Principal Angles in Subspace Classification. IEEE Transaction on Signal Processing, vol. 64, no. 8, 2016, 1933-1945. <a href="https://arxiv.org/pdf/1507.04230.pdf">[PDF]</a></p>
-<p><b>J. Huang</b>, Q. Qiu, R. Calderbank, M. Rodrigues and G. Sapiro, Alignment with Intra-class Structure can imporve classification. 40th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2015. <a href="files/transformSubspace.pdf">[PDF]</a></p>
-<p>Y. Xie, <b>J. Huang</b>, and R. Willett. Changepoint detection for high-dimensional time series with missing data, IEEE Journal of Selected Topics on Signal Processing (J-STSP), vol. 7, no. 1, pp. 12-27. 2013. <a href="https://arxiv.org/pdf/1208.5062.pdf">[PDF]</a></p>
-<p>Y. Xie, <b>J. Huang</b>, and R. Willett. Multiscale online tracking of manifolds. 2012 IEEE Statistical Signal Processing Workshop (SSP). <a href="files/mousse_ssp.pdf">[PDF]</a></p>
-</td>
-</tr>
-</table>
-</body>
-</html>
+<td align="left"><p>Deep neural networks have proved very successful in domains where large training sets are available, but when the number of training samples is small, their performance suffers from overfitting. To reduce overfitting, people have proposed various data independent regularizations, e.g. weight decay, dropout.
+</p>

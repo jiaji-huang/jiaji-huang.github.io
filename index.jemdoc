@@ -4,23 +4,23 @@
 ~~~
 {}{img_left}{files/portrait.png}{alt text}{120}{173}{}
 Jiaji Huang \n
-Senior Research Scientist \n
-[http://research.baidu.com/ Baidu Research] \n
+Senior Applied Scientist \n
+AWS \n
 
 Contact \n
-1195 Bordeaux Dr, \n
-Sunnyvale, CA 94089 \n
-LastnameFirstname@baidu.com
+2795 Augustine Dr, \n
+Santa Clara, CA 95054 \n
+firstname-lastname@outlook.com
 ~~~
 
 == Research Interests
 Statistical Signal Processing, Machine Learning, Natural Language Processing, Computational Linguistics
 
-== Recent News
-- 01\/2022 -- One paper accepted in ICLR 2022, on improved CTC loss
-- 09\/2021 -- One paper accepted in Neurips 2021, on Bertology and task-level generalization
-- 08\/2021 -- Serve as Senior Program Committee Member for AAAI-2022
-- 03\/2021 -- One paper accepted in NAACL 2021, on Bertology
+#== Recent News
+#- 01\/2022 -- One paper accepted in ICLR 2022, on improved CTC loss
+#- 09\/2021 -- One paper accepted in Neurips 2021, on Bertology and task-level generalization
+#- 08\/2021 -- Serve as Senior Program Committee Member for AAAI-2022
+#- 03\/2021 -- One paper accepted in NAACL 2021, on Bertology
 #- 01\/2021 -- Two papers accepted in ICLR 2021. One on Bertogloy, one on generative models for audio
 #- 09\/2020 -- Paper "Improving Bilingual Lexicon Induction for Low Frequency Words" is accepted by EMNLP 2020
 #- 08\/2020 -- Serve as Senior Program Committee Member for AAAI-2021
@@ -31,3 +31,4 @@ Statistical Signal Processing, Machine Learning, Natural Language Processing, Co
 [files/cv.pdf \[Curriculum Vitae\]] \n
 [https://scholar.google.com/citations?user=zgqtvYUAAAAJ&hl=en&oi=ao \[Google Scholar\]] \n
 [https://www.linkedin.com/in/jiaji-huang-5478103a/ \[LinkedIn\]] \n
+{{<script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=KyJLz3SzNyLkW6bhLz6RG5vT0-a_05djc1FAHnJsvc0&w=100"></script>}}
