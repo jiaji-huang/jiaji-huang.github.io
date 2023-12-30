@@ -30,13 +30,15 @@ Textbooks:
 - [https://arxiv.org/abs/2201.02135 Deep Reinforcement Learning] by Plaat
 #- [https://inst.eecs.berkeley.edu/~cs188/sp20/assets/files/SuttonBartoIPRLBook2ndEd.pdf Reinforcement Learning: An Introduction 2nd Edition] by Sutton and Barto
 
-Grade: 20\% homework \+ 40\% midterm exam \+ 40\% project
+Grade: 20\% homework \+ 20\% paper presentation \+ 20\% midterm exam \+ 40\% project
+
+Paper presentation: Each student presents one paper in one of the classes. We reward good presenters and actively involved audience.
 
 == Syllabus
 01\/13
 - Topics: Introduction, Prerequisites [files/teaching/deep_learning/1.pdf \[slides\]]
 - Readings: textbook chapters [https://www.deeplearningbook.org/contents/linear_algebra.html linear algerbra], [https://www.deeplearningbook.org/contents/prob.html probabilities], [https://proceedings.mlr.press/v206/kleindessner23a/kleindessner23a.pdf fair PCA]
-- Assignment: TBD
+- Assignment: [files/teaching/deep_learning/hw1.pdf \[homework1\]] 
 
 01\/20
 - Topics: Convolutional network and computer vision
