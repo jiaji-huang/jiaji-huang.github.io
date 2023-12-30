@@ -39,7 +39,7 @@ There is no restriction/preference on form of the presentation. Slides may be us
 == Syllabus
 01\/13
 - Topics: Introduction, Prerequisites [files/teaching/deep_learning/1.pdf \[slides\]]
-- Readings: textbook chapters [https://www.deeplearningbook.org/contents/linear_algebra.html linear algerbra], [https://www.deeplearningbook.org/contents/prob.html probabilities], [https://proceedings.mlr.press/v206/kleindessner23a/kleindessner23a.pdf fair PCA]
+- Readings: textbook chapters [https://www.deeplearningbook.org/contents/linear_algebra.html linear algerbra], [https://www.deeplearningbook.org/contents/prob.html probabilities], [https://arxiv.org/pdf/1811.00103.pdf fair PCA]
 - Assignment: [files/teaching/deep_learning/hw1.pdf \[homework1\]] 
 
 01\/20
