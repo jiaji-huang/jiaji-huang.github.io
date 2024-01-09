@@ -20,9 +20,11 @@ Some cutting edge research topics will also be discussed, e.g., interpretability
 == Class \& Links
 Lecture: Saturday 9:00 am - 12:20 pm
 
-Office hours: Saturday 2:00 pm - 3:00 pm 
+Office hours: Saturday 1:00 pm - 3:00 pm 
 
 TA: Pratyaksh Bhalla (bhalla.pr@northeastern.edu)
+
+TA office hours: Friday morning (check with TA though)
 
 Textbooks:
 - [https://www.deeplearningbook.org Deep Learning] by Goodfellow, Bengio and Courville
@@ -36,7 +38,8 @@ Paper presentation: Each student presents one paper in one of the classes. We re
 The paper could be one of those suggested reading materials in the previous classes, or any recent paper identified as relevant by the presenter.
 There is no restriction/preference on form of the presentation. Slides may be used for clarity. Whiteboard can be used for derivations if necessary.
 
-== Syllabus
+Khoury cloud: [files/teaching/Khoury_cloud.pdf instruction1], [files/teaching/Khoury_cloud2.pdf instruction2]
+== Schedules
 01\/13
 - Topics: Introduction, Prerequisites [files/teaching/deep_learning/1.pdf \[slides\]]
 - Readings: textbook chapters [https://www.deeplearningbook.org/contents/linear_algebra.html linear algerbra], [https://www.deeplearningbook.org/contents/prob.html probabilities], [https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html PyTorch tutorial page]
