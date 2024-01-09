@@ -34,11 +34,21 @@ Textbooks:
 
 Grade: 20\% homework \+ 20\% paper presentation \+ 20\% midterm exam \+ 40\% project
 
+Homework: Due Friday 11:59pm
+
 Paper presentation: Each student presents one paper in one of the classes. We reward good presenters and actively involved audience.
 The paper could be one of those suggested reading materials in the previous classes, or any recent paper identified as relevant by the presenter.
 There is no restriction/preference on form of the presentation. Slides may be used for clarity. Whiteboard can be used for derivations if necessary.
 
 Khoury cloud: [files/teaching/Khoury_cloud.pdf instruction1], [files/teaching/Khoury_cloud2.pdf instruction2]
+
+General Policies:
+- Attend regularly: If you cannot make it, please email me or TA. Note: 2+ absence can harm your grade
+- Academic integrity (check [https://osccr.sites.northeastern.edu/academic-integrity-policy here]): In your homework or final project,
+	-- if you copied code somewhere from the web, please put a comment of the link
+	-- if you discussed with others, please acknowledge your collaborator
+	-- if you used chatgpt or any of its equivalent, please say so
+
 == Schedules
 01\/13
 - Topics: Introduction, Prerequisites [files/teaching/deep_learning/1.pdf \[slides\]]
