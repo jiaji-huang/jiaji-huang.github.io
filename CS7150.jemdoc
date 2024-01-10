@@ -56,27 +56,27 @@ General Policies:
 - Assignment: [files/teaching/deep_learning/hw1.pdf \[homework1\]]
 
 01\/20
+- Topics: Machine Learning Review, Classifiers, Multi-layer perceptron
+- Readings:
+- Assignment:
+
+01\/27
 - Topics: Convolutional network and computer vision
 - Readings: [https://arxiv.org/pdf/1512.03385.pdf ResNet], [https://arxiv.org/pdf/1608.06993.pdf DenseNet]
 - Assignment:
 
-01\/27
-- Topics: RNN, LSTM, Transformer and language modeling
+02\/03
+- Topics: RNN, LSTM, Transformer
 - Readings: [https://arxiv.org/abs/2006.12070 Lipschitz RNN]
 - Assignment:
 
-02\/03
+02\/10
 - Topics: NLP and Speech applications, Seq-to-Seq Models
 - Readings:
 - Assignment:
 
-02\/10
-- Topics: Back propagation, stochastic optimizers, parallelism
-- Readings:
-- Assignment:
-
 02\/17
-- Topics: Overfitting, Generalization
+- Topics: More on Optimization, Overfitting, Generalization, parallelism
 - Readings:
 - Assignment:
 
