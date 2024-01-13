@@ -51,13 +51,13 @@ General Policies:
 
 == Schedules
 01\/13
-- Topics: Introduction, Prerequisites [files/teaching/deep_learning/1.pdf \[slides\]]
+- Topics: Introduction, Prerequisites [files/teaching/deep_learning/1.pdf \[slides\]] [https://northeastern-my.sharepoint.com/:v:/g/personal/jia_huang_northeastern_edu/EXDfxc6KbTJHkcUIA23H2c4BDoRfaeM0VRCCLiWOvLcwVw?referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view.view \[recording 1], [https://northeastern-my.sharepoint.com/:v:/g/personal/jia_huang_northeastern_edu/ET0nHmUWNfRKmhQt6JdLZzMBjVZlWzT1Zflca7Q-7C_yYg?referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view.view 2\]]
 - Readings: textbook chapters [https://www.deeplearningbook.org/contents/linear_algebra.html linear algerbra], [https://www.deeplearningbook.org/contents/prob.html probabilities], [https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html PyTorch tutorial page]
 - Assignment: [files/teaching/deep_learning/hw1.pdf \[homework1\]]
 
 01\/20
 - Topics: Machine Learning Review, Classifiers, Multi-layer perceptron
-- Readings:
+- Readings: textbook chapter [https://www.deeplearningbook.org/contents/ml.html ML basics], [https://aclanthology.org/P19-1399.pdf hubless NN]
 - Assignment:
 
 01\/27
