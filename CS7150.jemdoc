@@ -56,8 +56,8 @@ General Policies:
 - Assignment: [files/teaching/deep_learning/hw1.pdf \[homework1\]]
 
 01\/20
-- Topics: Machine Learning Review, Classifiers, Multi-layer perceptron
-- Readings: textbook chapter [https://www.deeplearningbook.org/contents/ml.html ML basics], [https://aclanthology.org/P19-1399.pdf hubless NN]
+- Topics: Machine Learning Review, Classifiers, Multi-layer perceptron [files/teaching/deep_learning/2.pdf \[slides\]]
+- Readings: textbook chapter [https://www.deeplearningbook.org/contents/ml.html ML basics], [https://aclanthology.org/P19-1399.pdf hubless NN], [https://arxiv.org/pdf/2010.15327.pdf deep vs shallow representations], [https://arxiv.org/pdf/1511.07289.pdf ELU activation]
 - Assignment:
 
 01\/27
