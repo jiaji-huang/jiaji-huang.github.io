@@ -47,7 +47,7 @@ General Policies:
 - Academic integrity (check [https://osccr.sites.northeastern.edu/academic-integrity-policy/ here]): In your homework or final project,
 	-- if you copied code somewhere from the web, please put a comment of the link
 	-- if you discussed with others, please acknowledge your collaborator
-	-- if you used chatgpt or any of its equivalence, please say so
+	-- if you used chatgpt or any of its equivalence, please give details on how you prompted the language model.
 
 == Schedules
 01\/13
@@ -63,7 +63,7 @@ General Policies:
 01\/27
 - Topics: Convolutional network and computer vision
 - Readings: [https://arxiv.org/pdf/1512.03385.pdf ResNet], [https://arxiv.org/pdf/1608.06993.pdf DenseNet]
-- Assignment:
+- Assignment: [files/teaching/deep_learning/hw2.pdf \[homework2\]]
 
 02\/03
 - Topics: RNN, LSTM, Transformer
