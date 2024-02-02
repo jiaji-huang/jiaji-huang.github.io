@@ -67,7 +67,7 @@ General Policies:
 
 02\/03
 - Topics: ngram, word2vec, RNN, LSTM, Transformer [files/teaching/deep_learning/4.pdf \[slides\]]
-- Readings: [https://arxiv.org/abs/2006.12070 Lipschitz RNN], [https://arxiv.org/pdf/1612.04426v1.pdf cache language model]
+- Readings: [https://arxiv.org/abs/2006.12070 Lipschitz RNN], [https://arxiv.org/pdf/1612.04426v1.pdf cache language model], [https://aclanthology.org/2022.findings-emnlp.99.pdf LM without positional encoding]
 - Assignment: [files/teaching/deep_learning/hw4.pdf \[homework4\]]
 
 02\/10
