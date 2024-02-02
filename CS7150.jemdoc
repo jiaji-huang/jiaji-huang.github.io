@@ -66,9 +66,9 @@ General Policies:
 - Assignment: [files/teaching/deep_learning/hw3.pdf \[homework3\]]
 
 02\/03
-- Topics: ngram, word2vec, RNN, LSTM, Transformer
-- Readings: [https://arxiv.org/abs/2006.12070 Lipschitz RNN]
-- Assignment:
+- Topics: ngram, word2vec, RNN, LSTM, Transformer [files/teaching/deep_learning/4.pdf \[slides\]]
+- Readings: [https://arxiv.org/abs/2006.12070 Lipschitz RNN], [https://arxiv.org/pdf/1612.04426v1.pdf cache language model]
+- Assignment: [files/teaching/deep_learning/hw4.pdf \[homework4\]]
 
 02\/10
 - Topics: NLP and Speech applications, Seq-to-Seq Models
