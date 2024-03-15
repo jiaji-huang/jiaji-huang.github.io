@@ -94,9 +94,9 @@ Midterm Exam
 - Assignment: N/A
 
 03\/16:
-- Topics: Interpretability, Information bottleneck, adverserial attacks
-- Readings:
-- Assignment
+- Topics: Interpretability [files/teaching/deep_learning/9.pdf \[slides\]]
+- Readings: [https://openreview.net/pdf?id=8HRvyxc606 CKA flawed], [https://arxiv.org/abs/2011.08891 HiResCAM]
+- Assignment: N/A
 
 03\/23
 - Topics: Generative Models (Guest Lecture by [https://sites.google.com/view/sibozhang/home Sibo Zhang])
