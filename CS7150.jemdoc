@@ -107,9 +107,9 @@ Midterm Exam
 - Topics: Project middle term review
 
 04\/06
-- Topics: Sparsity, Distillation, Model Compression
-- Readings:
-- Assignment
+- Topics: Sparsity, Distillation, Model Compression [files/teaching/deep_learning/11.pdf \[slides\]] [https://northeastern-my.sharepoint.com/:v:/g/personal/jia_huang_northeastern_edu/EZ4eR7O0cYRBjRb2FUSW5XcBq5Fq1Kz1GVZY-tjeYCDYBg?referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view.view \[recoding 1], [https://northeastern-my.sharepoint.com/:v:/g/personal/jia_huang_northeastern_edu/EZ4eR7O0cYRBjRb2FUSW5XcBq5Fq1Kz1GVZY-tjeYCDYBg?referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view.view 2\]]
+- Readings: [https://arxiv.org/pdf/2402.13116.pdf survey on KD of LLM], [https://aclanthology.org/P19-1580.pdf Redundancy in multi-head attention]
+- Assignment: N/A
 
 04\/13
 - Topics: Reinforcement Learning (Guest Lecture by [https://kaixianglin.github.io Kaixiang Lin])
